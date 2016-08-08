@@ -1,0 +1,30 @@
+install composer
+run composer install
+
+goto localhost
+follow instructions (Standardinstallation)
+
+after installation
+goto Erweitern
+install extensions
+ * Workbench
+ * Workbench moderation
+ * Field collection
+ * Content Translation
+ * HAL
+ * HTTP Basic Authentication
+ * RESTful Web Services
+ * Serialization
+ * REST UI
+
+Configuration
+=============
+
+goto /admin/config/regional/content-language
+configure translation for content types and field collections
+
+goto /admin/structure/types/manage/article/moderation
+enable moderation for content type
+
+
+
