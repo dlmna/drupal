@@ -173,6 +173,11 @@ class AuthenticationManager implements AuthenticationProviderInterface, Authenti
    */
   protected function defaultFilter(Request $request, $provider_id) {
     $route = RouteMatch::createFromRequest($request)->getRouteObject();
+
+    if ($route->hasOption('_view_display_plugin_id') && $route->getOption('_view_display_plugin_id') == 'rest_export') {
+      $route->addOptions(array('_auth' => array('basic_auth')));
+    }
+
     $has_auth_option = isset($route) && $route->hasOption('_auth');
 
     if ($has_auth_option) {
