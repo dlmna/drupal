@@ -10,12 +10,14 @@ install extensions
  * Workbench
  * Workbench moderation
  * Field collection
+ * Configuration Translation
  * Content Translation
  * HAL
  * HTTP Basic Authentication
  * RESTful Web Services
  * Serialization
  * REST UI
+
 
 Configuration
 =============
@@ -27,4 +29,12 @@ goto /admin/structure/types/manage/article/moderation
 enable moderation for content type
 
 
+Debugging
+=========
 
+with intellij:
+configure xdebug
+edit configurations
+add new PHP Web Application
+add new Server
+click Start listening for PHP Debug Connections
