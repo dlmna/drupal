@@ -1,0 +1,12 @@
+name: APPFF Configuration Module
+description: Handles APPFF Configuration
+package: Custom
+
+type: module
+core: 8.x
+
+config_devel:
+  - language.entity.de.yml
+  - language.entity.en.yml
+  - language.entity.ku.yml
+  - language.entity.ps.yml
