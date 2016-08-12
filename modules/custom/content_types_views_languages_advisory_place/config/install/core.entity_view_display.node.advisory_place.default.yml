@@ -1,0 +1,110 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.advisory_place.field_email
+    - field.field.node.advisory_place.field_geolocation
+    - field.field.node.advisory_place.field_languages
+    - field.field.node.advisory_place.field_more_information
+    - field.field.node.advisory_place.field_place
+    - field.field.node.advisory_place.field_profiletext
+    - field.field.node.advisory_place.field_street
+    - field.field.node.advisory_place.field_street_number
+    - field.field.node.advisory_place.field_tags
+    - field.field.node.advisory_place.field_telephone
+    - field.field.node.advisory_place.field_topics
+    - field.field.node.advisory_place.field_zip_code
+    - node.type.advisory_place
+  module:
+    - text
+    - user
+id: node.advisory_place.default
+targetEntityType: node
+bundle: advisory_place
+mode: default
+content:
+  field_email:
+    weight: 115
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_geolocation:
+    weight: 117
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_languages:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_more_information:
+    weight: 116
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_place:
+    weight: 112
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_profiletext:
+    weight: 113
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_street:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_street_number:
+    weight: 110
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_tags:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_telephone:
+    weight: 114
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_topics:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_zip_code:
+    weight: 111
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 100
+hidden:
+  langcode: true

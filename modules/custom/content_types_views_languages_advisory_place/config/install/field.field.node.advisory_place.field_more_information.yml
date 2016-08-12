@@ -1,0 +1,20 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_more_information
+    - node.type.advisory_place
+  module:
+    - text
+id: node.advisory_place.field_more_information
+field_name: field_more_information
+entity_type: node
+bundle: advisory_place
+label: 'Weitere Informationen'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

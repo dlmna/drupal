@@ -1,0 +1,18 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_zip_code
+    - node.type.advisory_place
+id: node.advisory_place.field_zip_code
+field_name: field_zip_code
+entity_type: node
+bundle: advisory_place
+label: Postleitzahl
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

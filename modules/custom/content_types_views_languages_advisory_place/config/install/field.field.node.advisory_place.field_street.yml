@@ -1,0 +1,18 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_street
+    - node.type.advisory_place
+id: node.advisory_place.field_street
+field_name: field_street
+entity_type: node
+bundle: advisory_place
+label: Straße
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

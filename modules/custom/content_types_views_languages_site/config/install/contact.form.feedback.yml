@@ -1,0 +1,9 @@
+langcode: de
+status: true
+dependencies: {  }
+id: feedback
+label: 'Website feedback'
+recipients:
+  - dma@upsource.de
+reply: ''
+weight: 0
