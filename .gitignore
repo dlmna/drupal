@@ -2,3 +2,4 @@
 drupal.iml
 vendor
 sites
+composer.lock
