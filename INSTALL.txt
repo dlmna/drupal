@@ -1,8 +1,50 @@
-install composer
-run composer install
+Setup
+=====
 
-goto localhost
-follow instructions (Standardinstallation)
+Install Composer
+----------------
+sudo apt-get update
+sudo apt-get install curl php5-cli git
+curl -sS https://getcomposer.org/installer | sudo php -- --install- dir=/usr/local/bin --filename=composer
+
+Configure Apache
+----------------
+<VirtualHost *:80>
+    ServerName 192.168.1.223
+    ServerAlias drupal.local
+    DocumentRoot /var/www/drupal
+</VirtualHost>
+
+Create MySql database and user
+------------------------------
+drupal
+
+Update /etc/hosts, add
+----------------------
+127.0.0.1   drupal.local
+
+Get project via git
+-------------------
+git clone --branch 8.1.8-dev git@github.com:dlmna/drupal.git drupal
+cd drupal
+composer install
+
+Make Drush Public
+-----------------
+sudo ln -s ~/workspace/mgepa/drupal/vendor/drush/drush/drush /usr/local/bin/drush
+
+Add Symlink
+-----------
+cd /var/www
+sudo ln -s ~/workspace/mgepa/drupal drupal
+
+Goto drupal.local and follow instructions
+-----------------------------------------
+choose standard installation
+
+
+Configuration
+=============
 
 after installation
 goto Erweitern
@@ -17,10 +59,7 @@ install extensions
  * RESTful Web Services
  * Serialization
  * REST UI
-
-
-Configuration
-=============
+ * config_devel
 
 goto /admin/config/regional/content-language
 configure translation for content types and field collections
