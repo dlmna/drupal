@@ -59,7 +59,6 @@ install extensions
  * RESTful Web Services
  * Serialization
  * REST UI
- * config_devel
 
 goto /admin/config/regional/content-language
 configure translation for content types and field collections
