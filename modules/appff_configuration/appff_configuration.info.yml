@@ -10,3 +10,18 @@ config_devel:
   - language.entity.en.yml
   - language.entity.ku.yml
   - language.entity.ps.yml
+  - core.entity_form_display.node.accomodation_for_women.default.yml
+  - core.entity_view_display.node.accomodation_for_women.default.yml
+  - core.entity_view_display.node.accomodation_for_women.teaser.yml
+  - field.field.node.accomodation_for_women.field_availability.yml
+  - field.field.node.accomodation_for_women.field_email.yml
+  - field.field.node.accomodation_for_women.field_languages.yml
+  - field.field.node.accomodation_for_women.field_more_information.yml
+  - field.field.node.accomodation_for_women.field_profiletext.yml
+  - field.field.node.accomodation_for_women.field_tags.yml
+  - field.field.node.accomodation_for_women.field_telephone.yml
+  - field.field.node.accomodation_for_women.field_topics.yml
+  - language.content_settings.node.accomodation_for_women.yml
+  - node.type.accomodation_for_women.yml
+  - system.menu.account.yml
+  - views.view.accomodation_for_women.yml
