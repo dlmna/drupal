@@ -12,6 +12,7 @@ drush -y en appff_site
 drush -y en appff_user
 drush -y en appff_language
 
+drush -y en appff_api
 drush -y en appff_accomodation
 drush -y en appff_advisory_place
 drush -y en appff_article
