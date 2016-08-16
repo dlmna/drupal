@@ -1,0 +1,11 @@
+name: Menu
+description: 'Links in main menu'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - content_translation
+  - language
+  - menu_link_content
+  - system
+package: appff

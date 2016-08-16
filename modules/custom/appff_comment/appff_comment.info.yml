@@ -1,0 +1,13 @@
+name: Standardkommentare
+description: 'Provides Standardkommentare kommentartyp and related configuration. Kommentieren des Inhalts erlauben'
+type: module
+core: 8.x
+dependencies:
+  - comment
+  - content_translation
+  - field
+  - language
+  - node
+  - rdf
+  - text
+package: appff

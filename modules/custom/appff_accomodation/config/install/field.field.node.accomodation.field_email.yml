@@ -1,0 +1,18 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.accomodation
+id: node.accomodation.field_email
+field_name: field_email
+entity_type: node
+bundle: accomodation
+label: E-Mail
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

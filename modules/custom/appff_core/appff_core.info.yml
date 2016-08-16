@@ -1,0 +1,11 @@
+name: Kern
+description: 'Provides core components required by other features.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - node
+  - taxonomy
+  - text
+  - user
+package: appff

@@ -1,0 +1,21 @@
+name: Beratungsstelle
+description: 'Provides Beratungsstelle content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - appff_core
+  - appff_language
+  - appff_languages
+  - appff_site
+  - appff_topic
+  - content_translation
+  - field
+  - language
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - views
+  - workbench_moderation
+package: appff

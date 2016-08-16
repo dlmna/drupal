@@ -1,0 +1,14 @@
+name: 'Einfache Seite'
+description: 'Provides Einfache Seite content type and related configuration. Benutzen Sie <em>Einfache Seiten</em> für statischen Inhalt, wie z.B. eine „Über uns“ Seite.'
+type: module
+core: 8.x
+dependencies:
+  - content_translation
+  - field
+  - language
+  - node
+  - path
+  - rdf
+  - text
+  - user
+package: appff

@@ -1,0 +1,31 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.accomodation.field_availability
+    - field.field.node.accomodation.field_email
+    - field.field.node.accomodation.field_languages
+    - field.field.node.accomodation.field_more_information
+    - field.field.node.accomodation.field_profiletext
+    - field.field.node.accomodation.field_tags
+    - field.field.node.accomodation.field_topics
+    - node.type.accomodation
+  module:
+    - user
+id: node.accomodation.teaser
+targetEntityType: node
+bundle: accomodation
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_availability: true
+  field_email: true
+  field_languages: true
+  field_more_information: true
+  field_profiletext: true
+  field_tags: true
+  field_topics: true
+  langcode: true

@@ -1,0 +1,22 @@
+name: Artikel
+description: 'Provides Artikel content type and related configuration. Benutzen Sie <em>Artikel</em> für zeitkritische Inhalte wie Nachrichten, Pressemeldungen oder Blogeinträge.'
+type: module
+core: 8.x
+dependencies:
+  - appff_comment
+  - appff_core
+  - appff_site
+  - comment
+  - content_translation
+  - field
+  - file
+  - image
+  - language
+  - menu_ui
+  - node
+  - path
+  - rdf
+  - text
+  - user
+  - workbench_moderation
+package: appff

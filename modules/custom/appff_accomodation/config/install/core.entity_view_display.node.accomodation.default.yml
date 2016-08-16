@@ -1,0 +1,78 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.accomodation.field_availability
+    - field.field.node.accomodation.field_email
+    - field.field.node.accomodation.field_languages
+    - field.field.node.accomodation.field_more_information
+    - field.field.node.accomodation.field_profiletext
+    - field.field.node.accomodation.field_tags
+    - field.field.node.accomodation.field_telephone
+    - field.field.node.accomodation.field_topics
+    - node.type.accomodation
+  module:
+    - text
+    - user
+id: node.accomodation.default
+targetEntityType: node
+bundle: accomodation
+mode: default
+content:
+  field_availability:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_email:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_languages:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_more_information:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_profiletext:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_tags:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_telephone:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_topics:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 100
+hidden:
+  langcode: true

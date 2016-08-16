@@ -1,0 +1,26 @@
+langcode: de
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - workbench_moderation
+third_party_settings:
+  workbench_moderation:
+    enabled: true
+    allowed_moderation_states:
+      - published
+      - archived
+      - draft
+      - needs_review
+    default_moderation_state: draft
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Artikel
+type: article
+description: 'Benutzen Sie <em>Artikel</em> für zeitkritische Inhalte wie Nachrichten, Pressemeldungen oder Blogeinträge.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
