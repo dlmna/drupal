@@ -1,0 +1,6 @@
+name: APPFF Content
+description: Place to export content
+package: Custom
+
+type: module
+core: 8.x

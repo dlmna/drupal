@@ -1,0 +1,184 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/api?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/api"
+        },
+        "http:\/\/default\/rest\/relation\/node\/api\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/api\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "15"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "534a078b-3ec9-4120-9e2a-a80cf6764ac9"
+        }
+    ],
+    "vid": [
+        {
+            "value": "27"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "api"
+        }
+    ],
+    "title": [
+        {
+            "value": "API",
+            "lang": "de"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/api\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/api\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "1471362708",
+            "lang": "de"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1471362893",
+            "lang": "de"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1471362875"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "de"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "field_link_accomodations": [
+        {
+            "uri": "internal:\/api\/accomodation?langcode={langcode}",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_link_advisory_places": [
+        {
+            "uri": "internal:\/api\/advisory_places?langcode={langcode}",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_link_articles": [
+        {
+            "uri": "internal:\/api\/articles?langcode={langcode}",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_link_news": [
+        {
+            "uri": "internal:\/api\/news?langcode={langcode}",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_link_topics": [
+        {
+            "uri": "internal:\/api\/topics?langcode={langcode}",
+            "title": "",
+            "options": []
+        }
+    ]
+}
