@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.advisory_place.field_geolocation
     - field.field.node.advisory_place.field_languages
     - field.field.node.advisory_place.field_more_information
+    - field.field.node.advisory_place.field_other_content
     - field.field.node.advisory_place.field_place
     - field.field.node.advisory_place.field_profiletext
     - field.field.node.advisory_place.field_street
@@ -58,6 +59,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+  field_other_content:
+    weight: 48
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
   field_place:
     weight: 42
     settings:

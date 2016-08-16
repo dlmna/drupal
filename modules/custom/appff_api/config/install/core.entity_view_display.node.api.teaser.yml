@@ -1,0 +1,17 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.api
+  module:
+    - user
+id: node.api.teaser
+targetEntityType: node
+bundle: api
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  langcode: true

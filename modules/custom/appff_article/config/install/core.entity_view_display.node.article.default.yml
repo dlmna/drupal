@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.article.field_other_image
     - field.field.node.article.field_street
     - field.field.node.article.field_tags
+    - field.field.node.article.field_topics
     - node.type.article
   module:
     - comment
@@ -62,6 +63,13 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+  field_topics:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
   links:
     weight: 100
   workbench_moderation_control:

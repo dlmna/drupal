@@ -1,18 +1,15 @@
-name: Topic
-description: 'Provides Topic content type and related configuration. '
+name: API
+description: 'Provides API content type and related configuration. '
 type: module
 core: 8.x
 dependencies:
   - appff_core
-  - content_translation
   - field
   - language
   - link
   - menu_ui
   - node
   - path
-  - text
   - user
-  - views
   - workbench_moderation
 package: appff

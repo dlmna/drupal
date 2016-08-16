@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.advisory_place.field_geolocation
     - field.field.node.advisory_place.field_languages
     - field.field.node.advisory_place.field_more_information
+    - field.field.node.advisory_place.field_other_content
     - field.field.node.advisory_place.field_place
     - field.field.node.advisory_place.field_profiletext
     - field.field.node.advisory_place.field_street
@@ -49,6 +50,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+  field_other_content:
+    weight: 118
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
   field_place:
     weight: 112
     label: above

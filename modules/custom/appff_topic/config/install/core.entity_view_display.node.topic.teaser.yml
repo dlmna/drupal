@@ -4,7 +4,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.topic.body
-    - field.field.node.topic.field_places_link
+    - field.field.node.topic.field_link_accomodations
+    - field.field.node.topic.field_link_advisory_places
+    - field.field.node.topic.field_link_articles
     - node.type.topic
   module:
     - text
@@ -24,5 +26,7 @@ content:
   links:
     weight: 100
 hidden:
-  field_places_link: true
+  field_link_accomodations: true
+  field_link_advisory_places: true
+  field_link_articles: true
   langcode: true

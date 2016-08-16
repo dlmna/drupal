@@ -6,6 +6,7 @@ dependencies:
   - appff_comment
   - appff_core
   - appff_site
+  - appff_topic
   - comment
   - content_translation
   - field
@@ -18,5 +19,6 @@ dependencies:
   - rdf
   - text
   - user
+  - views
   - workbench_moderation
 package: appff

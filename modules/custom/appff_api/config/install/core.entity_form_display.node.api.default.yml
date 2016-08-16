@@ -2,50 +2,56 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.field.node.topic.body
-    - field.field.node.topic.field_link_accomodations
-    - field.field.node.topic.field_link_advisory_places
-    - field.field.node.topic.field_link_articles
-    - node.type.topic
+    - field.field.node.api.field_link_accomodations
+    - field.field.node.api.field_link_advisory_places
+    - field.field.node.api.field_link_articles
+    - field.field.node.api.field_link_news
+    - field.field.node.api.field_link_topics
+    - node.type.api
   module:
     - link
     - path
-    - text
     - workbench_moderation
-id: node.topic.default
+id: node.api.default
 targetEntityType: node
-bundle: topic
+bundle: api
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 31
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 10
     settings: {  }
     third_party_settings: {  }
   field_link_accomodations:
-    weight: 33
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
-  field_link_advisory_places:
     weight: 34
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
-  field_link_articles:
+  field_link_advisory_places:
     weight: 35
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_link_articles:
+    weight: 36
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_link_news:
+    weight: 37
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_link_topics:
+    weight: 33
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -80,8 +86,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  translation:
-    weight: 10
   uid:
     type: entity_reference_autocomplete
     weight: 5

@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.article.field_other_image
     - field.field.node.article.field_street
     - field.field.node.article.field_tags
+    - field.field.node.article.field_topics
     - image.style.thumbnail
     - node.type.article
   module:
@@ -65,6 +66,14 @@ content:
     weight: 3
     settings: {  }
     third_party_settings: {  }
+  field_topics:
+    weight: 33
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
   langcode:
     type: language_select
     weight: 2

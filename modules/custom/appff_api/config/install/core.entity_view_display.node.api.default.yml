@@ -2,38 +2,21 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.field.node.topic.body
-    - field.field.node.topic.field_link_accomodations
-    - field.field.node.topic.field_link_advisory_places
-    - field.field.node.topic.field_link_articles
-    - node.type.topic
+    - field.field.node.api.field_link_accomodations
+    - field.field.node.api.field_link_advisory_places
+    - field.field.node.api.field_link_articles
+    - field.field.node.api.field_link_news
+    - field.field.node.api.field_link_topics
+    - node.type.api
   module:
     - link
-    - text
     - user
-id: node.topic.default
+id: node.api.default
 targetEntityType: node
-bundle: topic
+bundle: api
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 101
-    settings: {  }
-    third_party_settings: {  }
   field_link_accomodations:
-    weight: 103
-    label: above
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
-    type: link
-  field_link_advisory_places:
     weight: 104
     label: above
     settings:
@@ -44,8 +27,41 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
-  field_link_articles:
+  field_link_advisory_places:
     weight: 105
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_link_articles:
+    weight: 106
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_link_news:
+    weight: 107
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_link_topics:
+    weight: 103
     label: above
     settings:
       trim_length: 80
