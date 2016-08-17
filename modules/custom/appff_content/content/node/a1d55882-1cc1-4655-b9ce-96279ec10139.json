@@ -1,0 +1,218 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/11?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+        },
+        "http:\/\/default\/rest\/relation\/node\/language\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            },
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/language\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "11"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a1d55882-1cc1-4655-b9ce-96279ec10139"
+        }
+    ],
+    "vid": [
+        {
+            "value": "20"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        },
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "language"
+        }
+    ],
+    "title": [
+        {
+            "value": "Deutsch",
+            "lang": "de"
+        },
+        {
+            "value": "German",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/language\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ],
+                "lang": "de"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/language\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "de"
+        },
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1470919902",
+            "lang": "de"
+        },
+        {
+            "value": "1470919935",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1470919915",
+            "lang": "de"
+        },
+        {
+            "value": "1470919941",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0",
+            "lang": "de"
+        },
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "de"
+        },
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1470919915"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "de"
+        },
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        },
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "de"
+        },
+        {
+            "value": "de",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "de"
+        },
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "field_langcode": [
+        {
+            "value": "de"
+        }
+    ]
+}
