@@ -1,0 +1,103 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/places?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+        },
+        "http:\/\/default\/rest\/relation\/taxonomy_term\/tags\/content_translation_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ]
+    },
+    "tid": [
+        {
+            "value": "2"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "206f6683-edfc-4877-885a-ae62f294b1ba"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tags"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "name": [
+        {
+            "value": "Orte",
+            "lang": "de"
+        }
+    ],
+    "weight": [
+        {
+            "value": "0"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1470914765"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "de"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/taxonomy_term\/tags\/content_translation_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ],
+                "lang": "de"
+            }
+        ]
+    },
+    "content_translation_status": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "1470914576",
+            "lang": "de"
+        }
+    ]
+}

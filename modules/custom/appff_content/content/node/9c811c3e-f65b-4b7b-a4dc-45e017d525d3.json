@@ -1,0 +1,222 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/10?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/default\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/news?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/article\/field_topics": [
+            {
+                "href": "http:\/\/default\/node\/3?_format=hal_json",
+                "lang": "de"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "10"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9c811c3e-f65b-4b7b-a4dc-45e017d525d3"
+        }
+    ],
+    "vid": [
+        {
+            "value": "26"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "title": [
+        {
+            "value": "Psychologischer Dienst startet in K\u00f6ln",
+            "lang": "de"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/news?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "72637ef6-ed3e-4bdf-82e9-7ecd347d1759"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/article\/field_topics": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/topic"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b44167dd-aaf2-4c36-b8cd-73818e128368"
+                    }
+                ],
+                "lang": "de"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "1470912471",
+            "lang": "de"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1471356926",
+            "lang": "de"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1471356926"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "moderation_state": [
+        {
+            "target_id": "published",
+            "lang": "de"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "de"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna<br \/>\r\naliquyam erat, sed diam voluptua.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "de"
+        }
+    ],
+    "comment": [
+        {
+            "status": "2",
+            "cid": "0",
+            "last_comment_timestamp": "1470912587",
+            "last_comment_name": null,
+            "last_comment_uid": "1",
+            "comment_count": "0",
+            "lang": "de"
+        }
+    ]
+}

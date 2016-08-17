@@ -1,0 +1,452 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/14?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/advisory_place"
+        },
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            },
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/field_languages": [
+            {
+                "href": "http:\/\/default\/node\/8?_format=hal_json",
+                "lang": "de"
+            },
+            {
+                "href": "http:\/\/default\/node\/5?_format=hal_json",
+                "lang": "de"
+            },
+            {
+                "href": "http:\/\/default\/node\/8?_format=hal_json",
+                "lang": "ar"
+            },
+            {
+                "href": "http:\/\/default\/node\/5?_format=hal_json",
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/field_tags": [
+            {
+                "href": "http:\/\/default\/places?_format=hal_json",
+                "lang": "de"
+            },
+            {
+                "href": "http:\/\/default\/places?_format=hal_json",
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/field_topics": [
+            {
+                "href": "http:\/\/default\/node\/3?_format=hal_json",
+                "lang": "de"
+            },
+            {
+                "href": "http:\/\/default\/node\/3?_format=hal_json",
+                "lang": "ar"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "14"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a33a24b0-5689-47ca-a6c1-a9928da484c1"
+        }
+    ],
+    "vid": [
+        {
+            "value": "24"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        },
+        {
+            "value": "ar",
+            "lang": "ar"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "advisory_place"
+        }
+    ],
+    "title": [
+        {
+            "value": "Therapie, Beratung & Coaching f\u00fcr Frauen Bonn",
+            "lang": "de"
+        },
+        {
+            "value": "\u062b\u064a\u0631\u0627\u0628\u064a\u060c BERATUNG \u0648\u0627\u0644\u062a\u062f\u0631\u064a\u0628 F\u00dcR Frauen \u0628\u0648\u0646",
+            "lang": "ar"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ],
+                "lang": "de"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ],
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/field_languages": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d458ccb0-1e88-4ef9-b1bf-5927886b96b9"
+                    }
+                ],
+                "lang": "de"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0a59a1b9-6d82-4b8f-8939-e2f2ef05905e"
+                    }
+                ],
+                "lang": "de"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d458ccb0-1e88-4ef9-b1bf-5927886b96b9"
+                    }
+                ],
+                "lang": "ar"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0a59a1b9-6d82-4b8f-8939-e2f2ef05905e"
+                    }
+                ],
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/places?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "206f6683-edfc-4877-885a-ae62f294b1ba"
+                    }
+                ],
+                "lang": "de"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/places?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "206f6683-edfc-4877-885a-ae62f294b1ba"
+                    }
+                ],
+                "lang": "ar"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/field_topics": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/topic"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b44167dd-aaf2-4c36-b8cd-73818e128368"
+                    }
+                ],
+                "lang": "de"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/topic"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b44167dd-aaf2-4c36-b8cd-73818e128368"
+                    }
+                ],
+                "lang": "ar"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "de"
+        },
+        {
+            "value": "1",
+            "lang": "ar"
+        }
+    ],
+    "created": [
+        {
+            "value": "1471356012",
+            "lang": "de"
+        },
+        {
+            "value": "1471356261",
+            "lang": "ar"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1471356135",
+            "lang": "de"
+        },
+        {
+            "value": "1471356425",
+            "lang": "ar"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "de"
+        },
+        {
+            "value": "1",
+            "lang": "ar"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "de"
+        },
+        {
+            "value": "0",
+            "lang": "ar"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1471356033"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "de"
+        },
+        {
+            "value": "1",
+            "lang": "ar"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        },
+        {
+            "value": "0",
+            "lang": "ar"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "de"
+        },
+        {
+            "value": "de",
+            "lang": "ar"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "de"
+        },
+        {
+            "value": "0",
+            "lang": "ar"
+        }
+    ],
+    "field_email": [
+        {
+            "value": "test@upsource.de",
+            "lang": "de"
+        },
+        {
+            "value": "other@upsource.de",
+            "lang": "de"
+        },
+        {
+            "value": "test@upsource.de",
+            "lang": "ar"
+        },
+        {
+            "value": "other@upsource.de",
+            "lang": "ar"
+        }
+    ],
+    "field_place": [
+        {
+            "value": "Potsdam",
+            "lang": "de"
+        },
+        {
+            "value": "Potsdam",
+            "lang": "ar"
+        }
+    ],
+    "field_profiletext": [
+        {
+            "value": "<p>Dies ist der Profiltext<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "Profiltext",
+            "lang": "de"
+        },
+        {
+            "value": "<p><span lang=\"ar\"><span>\u0648\u0641\u0627\u0629<\/span> <span>\u0627\u0644\u062e\u0627\u0635\u0629 \u0627\u0644\u0639\u0631\u0627\u0642\u064a\u0629<\/span> <span>\u062f\u064a\u0631<\/span> <\/span>Profiltext<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "Profiltext",
+            "lang": "ar"
+        }
+    ],
+    "field_street": [
+        {
+            "value": "Am Bassin",
+            "lang": "de"
+        },
+        {
+            "value": "Am Bassin",
+            "lang": "ar"
+        }
+    ],
+    "field_street_number": [
+        {
+            "value": "8"
+        }
+    ],
+    "field_telephone": [
+        {
+            "value": "0331 707070"
+        }
+    ],
+    "field_zip_code": [
+        {
+            "value": "14467"
+        }
+    ]
+}

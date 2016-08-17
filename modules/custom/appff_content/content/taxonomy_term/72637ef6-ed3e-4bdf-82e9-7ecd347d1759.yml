@@ -1,0 +1,53 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/news?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+        }
+    },
+    "tid": [
+        {
+            "value": "1"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "72637ef6-ed3e-4bdf-82e9-7ecd347d1759"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tags"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "name": [
+        {
+            "value": "Aktuelles",
+            "lang": "de"
+        }
+    ],
+    "weight": [
+        {
+            "value": "1"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1470914767"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/7?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+        },
+        "http:\/\/default\/rest\/relation\/node\/language\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/language\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "7"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "acf10664-83d5-4a7a-9a67-62bda838043f"
+        }
+    ],
+    "vid": [
+        {
+            "value": "13"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "language"
+        }
+    ],
+    "title": [
+        {
+            "value": "Kurmanci",
+            "lang": "de"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/language\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/language\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "1470842925",
+            "lang": "de"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1470842925",
+            "lang": "de"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1470842925"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "de"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ]
+}

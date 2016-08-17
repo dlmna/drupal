@@ -1,0 +1,47 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/22?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": "22"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d15026c2-b420-4646-94c5-dd550e4f7ca6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "name": [
+        {
+            "value": "mgepa"
+        }
+    ],
+    "created": [
+        {
+            "value": "1471449792"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1471449792"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ]
+}

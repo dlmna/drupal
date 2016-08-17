@@ -1,0 +1,301 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/13?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/accomodation"
+        },
+        "http:\/\/default\/rest\/relation\/node\/accomodation\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/accomodation\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/accomodation\/field_languages": [
+            {
+                "href": "http:\/\/default\/node\/4?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/node\/5?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/node\/6?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/node\/7?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/node\/8?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/accomodation\/field_tags": [
+            {
+                "href": "http:\/\/default\/places?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/accomodation\/field_topics": [
+            {
+                "href": "http:\/\/default\/node\/3?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "13"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9f201ddf-a081-403f-ad29-f0f846758c01"
+        }
+    ],
+    "vid": [
+        {
+            "value": "23"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "accomodation"
+        }
+    ],
+    "title": [
+        {
+            "value": "1. Frauenhaus K\u00f6ln",
+            "lang": "de"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/accomodation\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/accomodation\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/accomodation\/field_languages": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "da8ded32-e50d-4262-97ab-fd22fc9891c9"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0a59a1b9-6d82-4b8f-8939-e2f2ef05905e"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a3a27982-d570-4104-a951-8adf71fabcbd"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acf10664-83d5-4a7a-9a67-62bda838043f"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d458ccb0-1e88-4ef9-b1bf-5927886b96b9"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/accomodation\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/places?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "206f6683-edfc-4877-885a-ae62f294b1ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/accomodation\/field_topics": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/topic"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b44167dd-aaf2-4c36-b8cd-73818e128368"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "1471341256",
+            "lang": "de"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1471341410",
+            "lang": "de"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1471341292"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "de"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "field_availability": [
+        {
+            "value": "Zurzeit leider keine freien Pl\u00e4tze",
+            "lang": "de"
+        }
+    ],
+    "field_profiletext": [
+        {
+            "value": "<p>Die Frauenh\u00e4user bieten Schutz f\u00fcr Frauen und deren Kinder<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "de"
+        }
+    ]
+}

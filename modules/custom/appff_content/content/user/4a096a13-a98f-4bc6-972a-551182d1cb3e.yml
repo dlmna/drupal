@@ -1,0 +1,47 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/21?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": "21"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4a096a13-a98f-4bc6-972a-551182d1cb3e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "name": [
+        {
+            "value": "editor"
+        }
+    ],
+    "created": [
+        {
+            "value": "1471449745"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1471449745"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ]
+}

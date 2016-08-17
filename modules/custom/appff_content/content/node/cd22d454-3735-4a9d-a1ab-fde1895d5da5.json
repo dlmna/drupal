@@ -1,0 +1,225 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/12?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/advisory_place"
+        },
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/field_languages": [
+            {
+                "href": "http:\/\/default\/node\/8?_format=hal_json",
+                "lang": "de"
+            },
+            {
+                "href": "http:\/\/default\/node\/11?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/field_topics": [
+            {
+                "href": "http:\/\/default\/node\/3?_format=hal_json",
+                "lang": "de"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "12"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cd22d454-3735-4a9d-a1ab-fde1895d5da5"
+        }
+    ],
+    "vid": [
+        {
+            "value": "21"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "advisory_place"
+        }
+    ],
+    "title": [
+        {
+            "value": "Notruf und Beratung f\u00fcr vergewaltigte Frauen",
+            "lang": "de"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "185bbcb4-9bb1-4d66-bce3-42afd5728d0f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/field_languages": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d458ccb0-1e88-4ef9-b1bf-5927886b96b9"
+                    }
+                ],
+                "lang": "de"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/language"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a1d55882-1cc1-4655-b9ce-96279ec10139"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/advisory_place\/field_topics": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/topic"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b44167dd-aaf2-4c36-b8cd-73818e128368"
+                    }
+                ],
+                "lang": "de"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "1470919806",
+            "lang": "de"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1471348975",
+            "lang": "de"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1470919839"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "de"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "de"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "de"
+        }
+    ],
+    "field_profiletext": [
+        {
+            "value": "<p>Wir sind aktiv gegen sexuelle Gewalt an Frauen und bieten Beratung.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "de"
+        }
+    ]
+}
