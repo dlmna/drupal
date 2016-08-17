@@ -20,6 +20,3 @@ drush -y en appff_topic
 drush -y en appff_menu
 
 drush -y features-import-all
-
-drush -y en defaultcontent
-drush -y en appff_content
