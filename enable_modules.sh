@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# required to 1) export 2) import content
+drush -y en defaultcontent
+drush -y en default_content
+
 drush -y en config_translation
 
 drush -y en features
@@ -19,5 +23,12 @@ drush -y en appff_article
 drush -y en appff_topic
 drush -y en appff_menu
 
+# import features from code to instance (db)
 drush -y features-import-all
+
+# import default content from appff_content via install script
+drush -y pm-uninstall appff_content
+drush -y en appff_content
+
+# update database entities
 drush -y entity-updates
